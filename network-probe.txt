@@ -1,0 +1,6 @@
+url=https://course-atlas-7155.zeratual.chatgpt.site/course-content/paw/01.md
+curl_rc=0
+http=401
+bytes=4072
+sha256=6817a856f35c89d805926cb32c0eb6d9042025ae2579c55df0f0eacb02df7d71
+expected_sha256=9a9b857a1cd618eb6e00c19c9f149d588df36b70e134bbeb3fc2258d08f416fc
