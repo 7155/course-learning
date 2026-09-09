@@ -1,0 +1,45 @@
+name: Probe course source
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/probe-course-source.yml
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe deployed Course Atlas content
+        shell: bash
+        run: |
+          set +e
+          URL='https://course-atlas-7155.zeratual.chatgpt.site/course-content/paw/01.md'
+          HTTP=$(curl -L --connect-timeout 15 --max-time 30 -sS -o /tmp/paw01.md -w '%{http_code}' "$URL")
+          CURL_RC=$?
+          SHA=''
+          BYTES='0'
+          if [ -f /tmp/paw01.md ]; then
+            SHA=$(sha256sum /tmp/paw01.md | awk '{print $1}')
+            BYTES=$(wc -c < /tmp/paw01.md | tr -d ' ')
+          fi
+          {
+            echo "url=$URL"
+            echo "curl_rc=$CURL_RC"
+            echo "http=$HTTP"
+            echo "bytes=$BYTES"
+            echo "sha256=$SHA"
+            echo "expected_sha256=9a9b857a1cd618eb6e00c19c9f149d588df36b70e134bbeb3fc2258d08f416fc"
+          } > network-probe.txt
+      - name: Commit result
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add network-probe.txt
+          git commit -m 'chore: record course source probe' || exit 0
+          git push
