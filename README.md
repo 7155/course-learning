@@ -9,3 +9,4 @@
 - [2026-09-11｜Browser Control 与 Code Mode：从 CDP 到 Agent Tool SDK](notes/2026-09-11-browser-control-and-code-mode.md)
 - [2026-09-13｜Agent Sandbox：从本地命令隔离到 Cloud Execution Runtime](notes/2026-09-13-agent-sandbox-runtime.md)
 - [2026-09-18｜PAW GIS Agent：本地 GIS、GEE 与数据放置策略](notes/2026-09-18-paw-gis-agent-data-compute-placement.md)
+- [2026-09-18｜Jev System One：从可编程 Reranker 到 Agent Decision Layer](notes/2026-09-18-jev-system-one-agent-decision-layer.md)
