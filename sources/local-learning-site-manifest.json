@@ -1,0 +1,49 @@
+{
+  "captured_on": "2026-09-19",
+  "source_project": "paw-agent-os-learning",
+  "source_visibility": "private; no original content or runtime records published",
+  "source_head": "5ecf671fa3afa5e8ae36bb5677c8295b59a1471e",
+  "snapshot_kind": "dirty local working-tree bytes; HEAD alone is not the content snapshot",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1e6b9e19596461d2b828a6215fa9bcf3cb9ddaab3dfe1b900783cb34bbdb2c07"
+    },
+    {
+      "path": "LEARNING.md",
+      "sha256": "c17c0f0b30bfe52d5bbf85740216ff173da13050290256311bf36d73ee1ec65e"
+    },
+    {
+      "path": "docs/course/README.md",
+      "sha256": "5c444fe638a8581d86d0bc7a33ef4debd74e5d140eefba65f8038cd78049aec4"
+    },
+    {
+      "path": "docs/course/33-tool-schema-disclosure.md",
+      "sha256": "b058e2150896c9e54420dfe66435facd92a638c95261c46a5a032b2d44651bc8"
+    },
+    {
+      "path": "docs/course/34-prompt-acceptance-recovery.md",
+      "sha256": "fabe76dd2f8202067f719307ab8c56459e006dc0b72068e4e9ab1534740ccddd"
+    },
+    {
+      "path": "docs/course/42-lab-quality-first-search.md",
+      "sha256": "f7b8666028aa534fca7834a76e7272d08291718538ea3b752b2e51e240afbb7d"
+    },
+    {
+      "path": "docs/course/45-rag-cited-chunk-boundary.md",
+      "sha256": "31f002771f1cee34177831fe5ab4952170136aebf0523b69f915347cbba17ae6"
+    },
+    {
+      "path": "docs/course/64-sse-snapshot-frontend-sync.md",
+      "sha256": "5522337a242b712667addaf835070bf1d2a414c810e93eb439a8da6fda7c9e4a"
+    },
+    {
+      "path": "docs/course/65-retrieval-algorithms.md",
+      "sha256": "0938be92a4bd6f5fedffb870b7d31faca46595f80fe43c8df3f2d849ca85266e"
+    },
+    {
+      "path": "docs/course/66-knowledge-ingest-consistency.md",
+      "sha256": "550b2f64cb048a13502ef68eb815047c05fd4cdc27e5ee5898e55f1a6ba7d7fa"
+    }
+  ]
+}

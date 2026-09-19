@@ -11,3 +11,15 @@
 - [2026-09-18｜PAW GIS Agent：本地 GIS、GEE 与数据放置策略](notes/2026-09-18-paw-gis-agent-data-compute-placement.md)
 - [2026-09-18｜Jev System One：从可编程 Reranker 到 Agent Decision Layer](notes/2026-09-18-jev-system-one-agent-decision-layer.md)
 - [2026-09-19｜RAGFlow DeepDOC：从 PDF Box 到 OCR、Layout 与阅读顺序](notes/2026-09-19-ragflow-deepdoc-pdf-parsing.md)
+
+## 近期整理与知识衔接
+
+- [2026-09-19｜近期学习总览](notes/2026-09-19-recent-learning-review.md)：串联最近 7 篇学习记录与本地教材。
+- [RAG：检索、排序与评测](topics/rag-retrieval-and-evaluation.md)
+- [工具发现、上下文预算与执行边界](topics/tool-discovery-and-context-budget.md)
+- [请求接受与恢复](topics/session-recovery-and-memory.md)
+- [前后端事件与快照同步](topics/frontend-event-snapshot-recovery.md)
+- [质量优先的 Agent 评测](topics/quality-first-agent-evaluation.md)
+- [月初 PAW 可视化学习项目的来源与整理边界](sources/local-learning-site.md)
+
+新增专题是历史材料的精选复习，不把整理日期当作首次学习日期，也不把材料覆盖当作掌握证明。
