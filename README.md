@@ -11,6 +11,7 @@
 - [2026-09-18｜PAW GIS Agent：本地 GIS、GEE 与数据放置策略](notes/2026-09-18-paw-gis-agent-data-compute-placement.md)
 - [2026-09-18｜Jev System One：从可编程 Reranker 到 Agent Decision Layer](notes/2026-09-18-jev-system-one-agent-decision-layer.md)
 - [2026-09-19｜RAGFlow DeepDOC：从 PDF Box 到 OCR、Layout 与阅读顺序](notes/2026-09-19-ragflow-deepdoc-pdf-parsing.md)
+- [2026-09-22｜ChatGPT Web 采集与 Course Learning 自动整理](notes/2026-09-22-chatgpt-web-learning-pipeline.md)
 
 ## 近期整理与知识衔接
 
